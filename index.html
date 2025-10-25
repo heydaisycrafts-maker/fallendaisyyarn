@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fallen Daisy Yarn | Coming Soon</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0b0b;
+      color: #f5e6c4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    img {
+      max-width: 280px;
+      width: 80%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #e0b97d;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 0 10px rgba(224,185,125,0.5);
+    }
+
+    a.button {
+      background-color: #e08f3a;
+      color: #0b0b0b;
+      text-decoration: none;
+      padding: 0.8rem 1.8rem;
+      border-radius: 50px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px rgba(224,143,58,0.5);
+    }
+
+    a.button:hover {
+      background-color: #f5e6c4;
+      color: #0b0b0b;
+      box-shadow: 0 0 20px rgba(245,230,196,0.7);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.8rem;
+      color: #7a6a4f;
+    }
+  </style>
+</head>
+<body>
+  <img src="Fallen Daisy Logo V2.png" alt="Fallen Daisy Yarn Logo">
+  <h1>Coming soon, but for now follow us on Instagram!</h1>
+  <a class="button" href="https://instagram.com/fallen.daisy.yarn" target="_blank" rel="noopener noreferrer">
+    @fallen.daisy.yarn
+  </a>
+  <footer>© <span id="year"></span> Fallen Daisy Yarn</footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
